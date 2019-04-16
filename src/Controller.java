@@ -183,12 +183,14 @@ public class Controller {
 	@FXML
 	public void next(ActionEvent event) throws IOException {
 		
-		Parent pane1 = FXMLLoader.load(getClass().getClassLoader().getResource("application/personnalInfo.fxml"));
+		Parent pane1 = FXMLLoader.load(getClass().getClassLoader().getResource("application/AcademicInfo.fxml"));
 		rootPane1.getChildren().setAll(pane1);
 		
-		cgpa=Cgpa.getText();
-		batch=Batch.getText();
-		roll=Roll.getText();
+		//System.out.println(Cgpa.getText());
+		
+		//cgpa=Cgpa.getText();
+		//batch=Batch.getText();
+		//roll=Roll.getText();
 		
 		
 		
